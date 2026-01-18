@@ -79,7 +79,7 @@ padding: 1.5rem 1rem;
 
 /*hero section*/
 .hero {
-    background-image: url(/assets/travel\ 01.png);
+    background-image: url(/assets/travel01.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -99,6 +99,10 @@ padding: 1.5rem 1rem;
     .hero {
         height: 50vh;
         width: 100%;
+        background-image: url(/assets/travel\ 01.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     }
 }
 .hero-hg {
@@ -107,6 +111,11 @@ padding: 1.5rem 1rem;
     color: #FFFFFF;
     width: 80rem;
     text-align: center
+}
+@media (max-width:700px) {
+    html {
+        font-size: 30%;
+    }
 }
 .hero-pg {
     font-size: 1.6rem;
@@ -639,6 +648,11 @@ footer {
     top: 16px;
     left: 8rem;
 }
+@media (max-width:900px) {
+    #dropdown {
+        display: none;
+    }
+}
 .footer-form-button {
     display: inline-block;
     width: 14rem;
@@ -651,7 +665,7 @@ footer {
 
 .footer-down {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-shrink: 1;
     flex-wrap: wrap;
     
@@ -664,7 +678,11 @@ footer {
      font-weight: 700;
 
 }
-
+.footer-down-right {
+    display: flex;
+    flex-shrink: 1;
+    height: 19.1rem;
+}
 
 .footer-down-middle {
     display: flex;
