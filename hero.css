@@ -79,7 +79,7 @@ padding: 1.5rem 1rem;
 
 /*hero section*/
 .hero {
-    background-image: url(/assets/travel01.png);
+    background-image: url(assets/travel01.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -99,7 +99,7 @@ padding: 1.5rem 1rem;
     .hero {
         height: 50vh;
         width: 100%;
-        background-image: url(/assets/travel01.png);
+        background-image: url(assets/travel01.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
