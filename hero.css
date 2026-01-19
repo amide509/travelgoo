@@ -79,7 +79,7 @@ padding: 1.5rem 1rem;
 
 /*hero section*/
 .hero {
-    background-image: url("../assets/travel01.png");
+    background-image: url("assets/travel01.png");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -95,7 +95,7 @@ padding: 1.5rem 1rem;
     padding-top: 10rem;
     flex-shrink: 1;
 }
-/* @media (max-width:1000px) {
+@media (max-width:1000px) {
     .hero {
         height: 50vh;
         width: 100%;
@@ -104,7 +104,7 @@ padding: 1.5rem 1rem;
     background-size: cover;
     background-attachment: fixed;
     }
-} */
+}
 .hero-hg {
     font-size: 7.5rem;
     font-weight: 800;
