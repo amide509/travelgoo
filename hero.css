@@ -79,7 +79,7 @@ padding: 1.5rem 1rem;
 
 /*hero section*/
 .hero {
-    background-image: url(assets/travel01.png);
+    background-image: url("../assets/travel01.png");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -95,7 +95,7 @@ padding: 1.5rem 1rem;
     padding-top: 10rem;
     flex-shrink: 1;
 }
-@media (max-width:1000px) {
+/* @media (max-width:1000px) {
     .hero {
         height: 50vh;
         width: 100%;
@@ -104,7 +104,7 @@ padding: 1.5rem 1rem;
     background-size: cover;
     background-attachment: fixed;
     }
-}
+} */
 .hero-hg {
     font-size: 7.5rem;
     font-weight: 800;
@@ -223,6 +223,13 @@ border-radius: 7.5px;
         flex-shrink: 1;
         gap: 5rem;
     }
+}
+@media (max-width:800px) {
+    #testimony-icon {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+}
 }
 .testimony-card-wrapper {
     display: flex;
@@ -373,6 +380,16 @@ border-radius: 7.5px;
      height:4rem ;
      margin-top: 3rem;
 }
+@media (max-width:800px) {
+    .package-button , .package-button.down {
+        display: block;
+        width: fit-content;
+        height: max-content;
+        /* padding: 4rem 6rem; */
+        padding: 1rem;
+    }
+
+}
 .package-button:hover {
     background-color: #00A651;
 }
@@ -397,7 +414,7 @@ border-radius: 7.5px;
 }
 .package {
 display: inline-block;
-margin-top: 4rem;
+margin-top: 7rem;
 }
 .package {
     display: flex;
